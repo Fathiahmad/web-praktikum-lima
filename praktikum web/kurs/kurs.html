@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1">
+        <title>Kurs mata uang</title>
+        <link rel="stylesheet" href="kurs.css">
+    </head>
+        <body>
+            <h1>Konversi Mata Uang Asing</h1>
+           
+            <div class="uhuy">
+            <form action="">
+                <label for="nilai">Masukan nilai</label>
+                <input type="text" id="nilai" value="" autocomplete="" required/>
+                <select name="kurs" id="kurs">
+                    <option value="">Pilih disini</option>
+                    <option value="9.915">Dollar Us</option>
+                    <option value="13.472">Dollar Singapore</option>
+                    <option value="874">Ringit Malaysia</option>
+                    <option value="120">Yen Jepang</option>
+                    <option value="15.888">Euro</option>
+                    <option value="3.592">Riyal Arab Saudi</option>
+                </select>
+                <input type="text" id="rupiah" value="Mata Uang" autocomplete="" disabled>
+
+                <button type="button" id="konversi">Konversi</button>
+            </form>
+        </div>
+        <script src="kurs.js"></script>
+    </body>
+</html>

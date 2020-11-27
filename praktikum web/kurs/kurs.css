@@ -1,0 +1,30 @@
+body{
+    background-image: url("duit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial;
+    color: white;
+    
+}
+
+.uhuy{
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    border: 1px solid black;
+    background-image: url("perak.jpg");
+}
+
+
+h1{
+    text-align: center;
+}
+.uhuy button{
+    bottom: 0;
+    padding: 15px;
+}
+input {
+    width: 90%;
+    height: 40px;
+    margin: 20px 0px;
+}
